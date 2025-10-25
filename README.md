@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/imagees/login_2.png" alt="School Management Dashboard - Partie 1" width="100%" />
+  <img src="./public/images/login_2.png" alt="School Management Dashboard - Partie 1" width="100%" />
 </p>
 
 <p align="center" style="margin-top:10px;">
