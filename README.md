@@ -164,3 +164,47 @@ L’application offre une interface intuitive, responsive et sécurisée, permet
 ---
 
 > _Gestion Scolaire Primaire – Simplifier la gestion des écoles et garantir un suivi complet des élèves et enseignants._
+
+---
+
+# 🎨 Configuration Tailwind CSS & Composant SuperAdmin
+
+## 📦 Étape 1: Installation des dépendances
+
+Les dépendances ont été ajoutées au `package.json`. Exécutez:
+
+```bash
+npm install
+```
+
+
+## 🚀 Étape : Compiler les assets
+
+```bash
+npm run dev
+```
+
+Ou pour la production:
+
+```bash
+npm run build
+```
+
+## 💡 Utilisation
+
+Dans vos vues Blade:
+
+```blade
+<x-superadmin-sidebar />
+```
+
+## 🎨 Couleurs et Polices configurées
+
+### Couleurs:
+- **Blanc**: `bg-primary-white`, `text-primary-white`
+- **Bleu**: `bg-blue-primary` (#1E88E5), `bg-blue-light` (#E3F2FD)
+- **Jaune**: `bg-yellow-primary` (#FFC107), `bg-yellow-light` (#FFECB3)
+
+### Polices:
+- **Poppins**: `font-poppins`
+- **Roboto**: `font-roboto`
